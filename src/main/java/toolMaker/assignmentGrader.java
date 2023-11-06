@@ -1,8 +1,8 @@
-package Modal;
+package toolMaker;
 
-public class assignmentGrader extends finalGrader{
+public class assignmentGrader extends arrayBuilder{
     public String gradeAssignment(int assignments){
-        if (assignments == 7){
+        if (assignments >= 7){
             addGrade("A");
         }else if (assignments == 6){
             addGrade("B");

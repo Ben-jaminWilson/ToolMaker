@@ -1,5 +1,5 @@
-import Modal.achievementGrader;
-import Modal.assignmentGrader;
+import toolMaker.achievementGrader;
+import toolMaker.assignmentGrader;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

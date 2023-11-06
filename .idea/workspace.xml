@@ -4,18 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2474834-8a69-48bc-9e0b-b91b69c66b51" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modal/achievementGrader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modal/assignmentGrader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modal/finalGrader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/assignmentGraderTest.java" afterDir="false" />
+    <list default="true" id="d2474834-8a69-48bc-9e0b-b91b69c66b51" name="Changes" comment=":white_check_mark: add achievementGrader test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/toolMaker/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/toolMaker/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/toolMaker/achievementGrader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/toolMaker/arrayBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/toolMaker/projectsGrader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/toolMaker/selfReportGrader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/toolMakr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolMakr/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modal/achievementGrader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modal/assignmentGrader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolMaker/assignmentGrader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modal/finalGrader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/toolMakr/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/toolMakr/View.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/assignmentGraderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignmentGraderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -30,7 +40,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/toolMakr/Main.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/toolMaker/Main.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,6 +60,74 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="toolMaker.Main" />
+      <module name="Tool-Maker.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="toolMaker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="assignmentGraderTest.achievementGrader" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;assignmentGraderTest.achievementGrader&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="assignmentGraderTest.assignmentGrader" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;assignmentGraderTest.assignmentGrader&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.assignmentGraderTest.achievementGrader" />
+        <item itemvalue="Gradle.assignmentGraderTest.assignmentGrader" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,11 +144,27 @@
       <option name="project" value="LOCAL" />
       <updated>1699231411698</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=":white_check_mark: add assignmentGrader test">
+      <created>1699237640033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699237640033</updated>
+    </task>
+    <task id="LOCAL-00003" summary=":white_check_mark: add achievementGrader test">
+      <created>1699238030835</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699238030835</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value=":white_check_mark: add assignmentGrader test" />
+    <MESSAGE value=":white_check_mark: add achievementGrader test" />
+    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: add achievementGrader test" />
   </component>
 </project>
