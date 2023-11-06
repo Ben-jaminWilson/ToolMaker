@@ -1,3 +1,4 @@
+import Modal.achievementGrader;
 import Modal.assignmentGrader;
 import org.junit.jupiter.api.Test;
 
@@ -9,7 +10,13 @@ public class assignmentGraderTest {
     void assignmentGrader(){
         assignmentGrader grader = new assignmentGrader();
         grader.gradeAssignment(4);
-        assertEquals("D",grader.getGrades().get(0),"4=D");
+        assertEquals("D",grader.getGrades().get(0),"4 = D");
+    }
+    @Test
+    void achievementGrader(){
+        achievementGrader grader = new achievementGrader();
+        grader.gradeAchievement(6);
+        assertEquals("A",grader.getGrades().get(0),"6 = A");
     }
 
 }
