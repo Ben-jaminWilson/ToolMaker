@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2474834-8a69-48bc-9e0b-b91b69c66b51" name="Changes" comment=":white_check_mark: add achievementGrader test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/toolMaker/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/toolMaker/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/toolMaker/achievementGrader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/toolMaker/arrayBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/toolMaker/projectsGrader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/toolMaker/selfReportGrader.java" afterDir="false" />
+    <list default="true" id="d2474834-8a69-48bc-9e0b-b91b69c66b51" name="Changes" comment=":sparkles: Finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modal/achievementGrader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modal/assignmentGrader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toolMaker/assignmentGrader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modal/finalGrader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/toolMakr/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/toolMakr/View.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/assignmentGraderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignmentGraderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,13 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699238030835</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=":sparkles: Finished">
+      <created>1699246756541</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699246756541</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value=":white_check_mark: add assignmentGrader test" />
     <MESSAGE value=":white_check_mark: add achievementGrader test" />
-    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: add achievementGrader test" />
+    <MESSAGE value=":sparkles: Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: Finished" />
   </component>
 </project>

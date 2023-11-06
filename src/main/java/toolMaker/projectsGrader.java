@@ -4,20 +4,20 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class projectsGrader extends arrayBuilder{
-    public String gradeFirst(String firstProject){
+    public void gradeFirst(String firstProject){
         ArrayList<String> passingGrades = new ArrayList<>(Arrays.asList("A", "B", "C", "D"));
         if (passingGrades.contains(firstProject)) {
-            return "A";
+            addGrade("A");
         } else {
-            return firstProject;
+            addGrade("F");
         }
     }
-    public String gradeGUI(String GUIProject){
+    public void gradeGUI(String GUIProject){
         ArrayList<String> passingGrades = new ArrayList<>(Arrays.asList("A", "B", "C", "D"));
         if (passingGrades.contains(GUIProject)) {
-            return "A";
+            addGrade("A");
         } else {
-            return GUIProject;
+            addGrade("F");
         }
     }
     public void gradeFinal(String finalProject){
